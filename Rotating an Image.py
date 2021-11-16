@@ -7,3 +7,4 @@ try:
     img = cv2.imread(NAME)
     
     # Shape of image in terms of pixels.
+    (rows, cols) = img.shape[:2]
