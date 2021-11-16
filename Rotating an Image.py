@@ -2,4 +2,6 @@
 import cv2
 import numpy as np
 
-FILE_NAME = 'smartwatch.jpg'
+NAME = 'smartwatch.jpg'
+try:
+    img = cv2.imread(NAME)
