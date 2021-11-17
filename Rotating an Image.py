@@ -16,3 +16,6 @@ try:
     
     # Write img 
     cv2.imwrite('output.jpg', res)
+
+    
+    except IOError:
