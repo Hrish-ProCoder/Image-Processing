@@ -8,3 +8,7 @@ try:
     
     # Shape of image in terms of pixels.
     (rows, cols) = img.shape[:2]
+    
+    # Matrix Creation
+    # Matrix Rotation
+    
