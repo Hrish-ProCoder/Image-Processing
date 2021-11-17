@@ -11,4 +11,4 @@ try:
     
     # Matrix Creation
     # Matrix Rotation
-    
+    Mrk = cv2.getRotationMatrix2D((cols / 2, rows / 2), 45, 1)
