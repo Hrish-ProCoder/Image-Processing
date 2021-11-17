@@ -1,8 +1,10 @@
-
+# import packages
 import cv2
 import numpy as np
 
 NAME = 'smartwatch.jpg'
+
+# Using try except
 try:
     img = cv2.imread(NAME)
     
