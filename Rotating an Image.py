@@ -18,4 +18,5 @@ try:
     cv2.imwrite('output.jpg', res)
 
     
-    except IOError:
+except IOError:
+    print ("Error while reading files")
