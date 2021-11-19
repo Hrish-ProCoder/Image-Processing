@@ -9,3 +9,6 @@ try:
   
   # warpAffine - does appropriate shifting given in the translation matrix
   res = cv2.warpAffine(img, M, (cols, rows))
+  cv2.imwrite('output.jpg', res)
+  
+  
