@@ -11,4 +11,4 @@ try:
   res = cv2.warpAffine(img, M, (cols, rows))
   cv2.imwrite('output.jpg', res)
   
-  
+except IOError:
