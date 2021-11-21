@@ -14,3 +14,4 @@ try:
    cv2.imwrite('output.jpg', edges)
 
 except IOError:
+  print ("Error while reading files.")
