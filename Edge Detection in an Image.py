@@ -12,3 +12,5 @@ try:
    # Write image back to disk
     
    cv2.imwrite('output.jpg', edges)
+
+except IOError:
