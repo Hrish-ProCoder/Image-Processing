@@ -7,4 +7,4 @@ try:
   # Read image from disk
   img = cv2.imread(FILE_NAME)
    # Canny Edge Detection
-    
+   edges = cv2.Canny(img, 100, 200)
